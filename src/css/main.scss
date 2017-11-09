@@ -13,6 +13,8 @@ $scale6: 1.2rem;
 $scale8: 1.6rem;
 $scale10: 2rem;
 $scale12: 2.4rem;
+$scale14: 2.8rem;
+$scale16: 3.2rem;
 
 body {
   font-size: $scale10;
@@ -26,6 +28,20 @@ body {
   padding: 0 3rem;
   color: $dark-grey;
 }
+
+.content {
+  max-width: 105rem;
+  margin: 0 auto;
+
+  h1 {
+    font-size: $scale16;
+    text-align: center;
+    margin-bottom: 3rem;
+    font-style: italic;
+  }
+}
+
+
 
 
 header {
@@ -82,7 +98,7 @@ header {
     }
     button {
       background-color: #66CD00;
-      width: 15%;
+      width: 20%;
       font-size: $scale6;
       color: #fff;
       line-height: 0;
@@ -95,7 +111,6 @@ header {
   text-align: center;
   padding: 5rem 0;
   margin: 5rem auto;
-  max-width: 1200px;
   border-top: 1px dotted #555;
   border-bottom: 1px dotted #555;
 }

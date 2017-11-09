@@ -26,12 +26,14 @@ jekyll serve
 
 `src/index.md` contains the "what is this?" content.
 
-`webpack/components/SentimentSearch.js` is the root search UI component
+`webpack/components/SentimentSearch.js` is the root search UI component.
 
 ## Build and deploy
 
 ```
 jekyll build
+git add public
+git commit -m "built site"
 git subtree push --prefix public origin gh-pages
 ```
 
