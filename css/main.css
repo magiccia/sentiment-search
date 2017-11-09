@@ -1073,6 +1073,15 @@ body {
   padding: 0 3rem;
   color: #333; }
 
+.content {
+  max-width: 105rem;
+  margin: 0 auto; }
+  .content h1 {
+    font-size: 3.2rem;
+    text-align: center;
+    margin-bottom: 3rem;
+    font-style: italic; }
+
 header {
   background-color: #fff;
   padding: 1rem 0;
@@ -1118,7 +1127,7 @@ header {
     margin-right: -3rem; }
   .sentiment-search form button {
     background-color: #66CD00;
-    width: 15%;
+    width: 20%;
     font-size: 1.2rem;
     color: #fff;
     line-height: 0; }
@@ -1127,6 +1136,5 @@ header {
   text-align: center;
   padding: 5rem 0;
   margin: 5rem auto;
-  max-width: 1200px;
   border-top: 1px dotted #555;
   border-bottom: 1px dotted #555; }
