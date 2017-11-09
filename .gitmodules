@@ -1,0 +1,3 @@
+[submodule "src/_sass/skeleton"]
+	path = src/_sass/skeleton
+	url = git@github.com:WhatsNewSaes/Skeleton-Sass.git
