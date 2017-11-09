@@ -19,8 +19,10 @@ npm install
 ## Run
 
 ```
-jekyll serve
+jekyll serve &; webpack -w &
 ```
+
+NOTE: This isn't ideal. To exist, run `fg` and ctrl-c once to kill webpack, and again to kill jekyll.
 
 ## Edit
 
