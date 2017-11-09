@@ -1,6 +1,6 @@
 [submodule "src/_sass/skeleton"]
 	path = src/_sass/skeleton
-	url = git@github.com:WhatsNewSaes/Skeleton-Sass.git
+	url = https://github.com/WhatsNewSaes/Skeleton-Sass
 [submodule "serverless/twittersentiment"]
 	path = serverless/twittersentiment
-	url = git@github.com:eads/twittersentiment.git
+	url = https://github.com/eads/twittersentiment
