@@ -389,6 +389,11 @@ template {
 [hidden] {
   display: none; }
 
+.sentiment-search form:after {
+  content: "";
+  display: table;
+  clear: both; }
+
 /*
 * Skeleton V2.0.4
 * Copyright 2014, Dave Gamache
@@ -1059,7 +1064,8 @@ form {
 
 body {
   font-size: 2rem;
-  font-family: "Lora", "Georgia", serif; }
+  font-family: "Lora", "Georgia", serif;
+  background-color: #ddd; }
 
 .container {
   width: 100%;
@@ -1068,7 +1074,12 @@ body {
   color: #333; }
 
 header {
-  padding: 2rem 0; }
+  background-color: #fff;
+  padding: 1rem 0;
+  margin-bottom: 4rem; }
+  header ul, header h1 {
+    margin-bottom: 0;
+    line-height: 1; }
   header h1 {
     font-size: 2.4rem;
     color: #555555;
@@ -1087,3 +1098,35 @@ header {
         text-decoration: none; }
         header ul li a:hover {
           color: #222; }
+
+.sentiment-search form {
+  max-width: 900px;
+  margin: 0 auto;
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", sans-serif; }
+  .sentiment-search form input, .sentiment-search form input:focus, .sentiment-search form button {
+    float: left;
+    border-radius: 1.2rem;
+    border-width: 3px;
+    border-color: #fff;
+    padding: 2rem 1rem; }
+  .sentiment-search form input {
+    width: 80%;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-right: none;
+    font-size: 2rem;
+    margin-right: -3rem; }
+  .sentiment-search form button {
+    background-color: #66CD00;
+    width: 15%;
+    font-size: 1.2rem;
+    color: #fff;
+    line-height: 0; }
+
+.placeholder {
+  text-align: center;
+  padding: 5rem 0;
+  margin: 5rem auto;
+  max-width: 1200px;
+  border-top: 1px dotted #555;
+  border-bottom: 1px dotted #555; }

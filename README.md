@@ -1,4 +1,43 @@
-## Jekyll & Webpack, integrated
+# Twitter Sentiment
+
+## Requirements
+
+* Ruby (`brew install ruby`)
+* Jekyll (`gem install jekyll`)
+* Node (`brew install node`)
+* Webpack (`npm install -g webpack`)
+
+## Install
+
+```
+git clone git@github.com:eads/sentiment-search.git
+cd sentiment search
+git submodule update --init
+npm install
+```
+
+## Run
+
+```
+jekyll serve
+```
+
+## Edit
+
+`src/index.md` contains the "what is this?" content.
+
+`webpack/components/SentimentSearch.js` is the root search UI component
+
+## Build and deploy
+
+```
+jekyll build
+git subtree push --prefix public origin gh-pages
+```
+
+## Based on the greak work of Alli Zadronzny
+
+_Kept from original README_.
 
 So you can have your React and serve it statically, too. Plugin-free!
 
