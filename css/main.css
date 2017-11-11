@@ -1138,3 +1138,10 @@ header {
   margin: 5rem auto;
   border-top: 1px dotted #555;
   border-bottom: 1px dotted #555; }
+
+.tweet {
+  font-size: 1.6rem;
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", sans-serif;
+  margin: 3rem;
+  padding: 2rem;
+  background-color: #fff; }
